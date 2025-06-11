@@ -1,51 +1,112 @@
-**Proje ve Hedefler ve Ozellikler:** 
+# Proje ve Hedefler ve Özellikler
 
+## KyberCrypto Toolkit
 
+Bu Python tabanlı post-kuantum kriptografi aracı, **CRYSTALS-Kyber** algoritmasını temel alarak kuantum-dirençli anahtar değişimi ve şifreleme süreçlerini otomatikleştiren, kapsamlı, modüler ve kullanıcı dostu bir çözümdür.
 
-Bu proje, bir bilgisayar ağındaki yazılımcıları, ağ trafiği analiz aracı olan Wireshark kullanarak tespit etmeyi amaçlamaktadır. Temel hedef, yazılımcıların karakteristik ağ aktivitelerini (örneğin, Git/SSH kullanımı, IDE'ler ve kod editörlerinden kaynaklanan trafik, geliştirme/test sunucularına erişim, API test araçları trafiği, sanal makine/konteyner etkileşimleri ve özel port/protokol kullanımları) analiz ederek ayırt edici dijital izlerini belirlemektir. Proje kapsamında, bu özel trafik desenlerini etkin bir şekilde saptamak ve diğer ağ trafiğinden ayrıştırmak amacıyla hem canlı veri yakalama aşamasında (capture filters) hem de yakalanmış verilerin incelenmesi sırasında (display filters) kullanılacak kapsamlı ve özelleştirilmiş Wireshark filtreleri oluşturulacaktır. Bu filtreler, yazılımcılara özgü uygulamaların, servislerin ve davranış kalıplarının tespiti üzerine yoğunlaşarak, ağ üzerindeki yazılımcı varlığını ve faaliyetlerini yüksek doğrulukla belirlemeyi hedeflemektedir.
+- Kyber-512, Kyber-768, Kyber-1024 referans implementasyonları
+- RSA ve ECC gibi klasik algoritmalarla karşılaştırmalı analiz
+- Anahtar üretimi, kapsülleme, kapsül açma, hata oranı analizi
+- TLS/SSL entegrasyonu, hibrit şifreleme, MAC adresi ile kimlik doğrulama
+- Grafana tarzı görselleştirme ile performans analizi
+- Gerçek zamanlı izleme ve loglama
 
+Esnek, güvenli ve açık kaynak yapısıyla, bu araç post-kuantum analizleri basitleştirir ve kuantum bilgisayar tehditlerine karşı çözümler sunar.
 
+---
 
-**Görev:** 2025 yılı için [Developer Hunter, 'wireshark kullanarak yazilimcilari agda tesbit etmek (Yazilimci Avi)'] alanındaki en son ve en etkili ilk 10 tekniği/trendi derinlemesine araştır ve belirle.
+## Hedefler
 
+- **Post-Kuantum Güvenlik Bilinci**  
+  Lattice tabanlı algoritmaların önemini vurgulamak ve kullanıcıları eğitmek.
 
+- **Performans Karşılaştırması**  
+  Kyber ve klasik algoritmaların hız, bellek ve güvenlik açısından kıyaslanması.
 
-**Ozellikler** 
+- **Protokol Entegrasyonu**  
+  TLS, VPN gibi protokollerde Kyber kullanımı ve hibrit modellerin denenmesi.
 
+- **Kullanıcı Dostu Deneyim**  
+  Grafiksel arayüz ve modüler yapı ile kolay kullanım.
 
+- **Araştırma ve Eğitim Desteği**  
+  Açık kaynak ve dokümantasyon ile akademik çalışmalara destek.
 
-**İstenen Çıktı Detayları:**
+---
 
-1.  Belirlenen her bir teknik/trend için kısa ve öz bir başlık.
+## Özellikler
 
-2.  Her bir tekniğin/trendin ne olduğu, nasıl çalıştığı ve neden önemli olduğuna dair 2-3 cümlelik bir açıklama.
+### Kyber Algoritma Implementasyonu
 
-3.  Her bir tekniğin/trendin 2025'teki potansiyel etkileri ve uygulama alanları.
+- Kyber-512, Kyber-768, Kyber-1024 seviyeleri
+- Lattice tabanlı kriptografi ile kuantum direnç
+- NIST standartlarıyla uyumlu yapı
 
-4.  Mümkünse, her bir teknik/trend için güvenilir bir kaynak veya referans (örneğin, yayın adı, konferans, uzman görüşü).
+### Karşılaştırmalı Performans Analizi
 
-5.  Sonuçları numaralandırılmış bir liste halinde sun.
+- RSA ve ECC ile karşılaştırmalı benchmark araçları
+- Anahtar üretimi, şifreleme/deşifreleme hızı, bellek kullanımı
+- Grafana tarzı kullanıcı dostu görselleştirme
 
+### Gerçek Zamanlı Performans İzleme
 
+- Gerçek zamanlı algoritma takip sistemi
+- Hata oranları, başarısız kapsül açma logları
+- Anormallik tespiti ve uyarı sistemleri
 
-**Kısıtlamalar:**
+### TLS/SSL Protokol Entegrasyonu
 
-- Sadece 2025 yılı ve sonrası için öngörülen veya geçerli olacak tekniklere odaklan.
+- Kyber ile TLS/SSL desteği
+- Hibrit şifreleme modeli (Kyber + RSA)
+- Gerçek dünya senaryolarında test
 
-- Bilgilerin güncel ve doğrulanabilir olmasına özen göster.
+### MAC Adresi Tabanlı Kimlik Doğrulama
 
-- Spekülatif olmayan, kanıta dayalı bilgiler sun.
+- MAC adresi ile ek kimlik doğrulama
+- OUI analizi ile cihaz türü ve üretici tanımlama
+- Yerel ağlarda güvenli anahtar paylaşımı
 
+### Kuantum-Dirençli Hibrit Şifreleme
 
+- Klasik algoritmalarla hibrit yapı
+- RSA ile anahtar değişimi, Kyber ile veri şifreleme
 
-**Örnek Alanlar (Projenize Göre Değiştirin):**
+### Görselleştirme ve Raporlama
 
-- Yazılım Geliştirme Metodolojileri
+- Grafana tarzı paneller
+- PDF/CSV formatında detaylı raporlar
+- Güvenlik seviyesi derecelendirmesi
 
-- Veri Bilimi ve Makine Öğrenimi Uygulamaları
+### Kuantum Saldırı Simülasyonu
 
-- Blokzincir Teknolojileri
+- Grover, Shor gibi kuantum saldırılara karşı direnç testi
+- LWE tabanlı saldırı analizleri
 
-- Dijital Pazarlama Stratejileri
+### Modüler ve Açık Kaynak Yapı
 
-- İnsan-Bilgisayar Etkileşimi Arayüzleri
+- Python tabanlı modüler kod
+- MIT lisansı, açık kaynak geliştirme
+- API ve kapsamlı dokümantasyon
+
+### Eğitimsel Araçlar
+
+- Interaktif Kyber algoritma rehberleri
+- Lattice kriptografisi ve kuantum tehdit eğitim materyalleri
+- Üniversite ve bireysel kullanıcılara özel dokümanlar
+
+---
+
+## Teknik Detaylar
+
+- **Bağımlılıklar**: Python 3.8+, numpy, pycryptodome, matplotlib  
+- **Performans Optimizasyonu**: Vektörleştirme ve paralel işlem desteği  
+- **Güvenlik Uyarısı**: Üretim ortamına uygun değildir; sabit zamanlı işlemler eksik olabilir.
+
+---
+
+## Kullanım Senaryoları
+
+- **Güvenlik Araştırması**: Kuantum-dirençli algoritma testleri
+- **Akademik Çalışmalar**: Eğitim ve araştırmalarda kullanım
+- **Protokol Geliştirme**: TLS, VPN gibi sistemlerde Kyber entegrasyonu
+- **Kurumsal Güvenlik Planlaması**: Kuantum sonrası güvenlik dönüşümüne hazırlık
