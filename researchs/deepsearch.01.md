@@ -1,112 +1,123 @@
-# Proje ve Hedefler ve Özellikler
+# KyberCrypto Toolkit
 
-## KyberCrypto Toolkit
+**KyberCrypto Toolkit**, Python tabanlı, açık kaynaklı ve kullanıcı dostu bir post-kuantum kriptografi aracıdır. CRYSTALS-Kyber algoritmasını temel alarak kuantum-dirençli anahtar değişimi ve şifreleme süreçlerini otomatikleştirir. NIST’in PQC (Post-Quantum Cryptography) standartlaştırma sürecinde finalist olan Kyber algoritmasının üç güvenlik seviyesi olan **Kyber-512**, **Kyber-768** ve **Kyber-1024** desteklenmektedir. 
 
-Bu Python tabanlı post-kuantum kriptografi aracı, **CRYSTALS-Kyber** algoritmasını temel alarak kuantum-dirençli anahtar değişimi ve şifreleme süreçlerini otomatikleştiren, kapsamlı, modüler ve kullanıcı dostu bir çözümdür.
-
-- Kyber-512, Kyber-768, Kyber-1024 referans implementasyonları
-- RSA ve ECC gibi klasik algoritmalarla karşılaştırmalı analiz
-- Anahtar üretimi, kapsülleme, kapsül açma, hata oranı analizi
-- TLS/SSL entegrasyonu, hibrit şifreleme, MAC adresi ile kimlik doğrulama
-- Grafana tarzı görselleştirme ile performans analizi
-- Gerçek zamanlı izleme ve loglama
-
-Esnek, güvenli ve açık kaynak yapısıyla, bu araç post-kuantum analizleri basitleştirir ve kuantum bilgisayar tehditlerine karşı çözümler sunar.
+Araç; klasik şifreleme algoritmaları (RSA, ECC) ile karşılaştırmalı analizler sunar, gerçek zamanlı performans izlemesi, görsel raporlama, TLS/SSL entegrasyonu ve eğitimsel modüller gibi birçok yenilikçi özelliğe sahiptir.
 
 ---
 
-## Hedefler
+## 🎯 Proje Hedefleri
 
-- **Post-Kuantum Güvenlik Bilinci**  
-  Lattice tabanlı algoritmaların önemini vurgulamak ve kullanıcıları eğitmek.
-
-- **Performans Karşılaştırması**  
-  Kyber ve klasik algoritmaların hız, bellek ve güvenlik açısından kıyaslanması.
-
-- **Protokol Entegrasyonu**  
-  TLS, VPN gibi protokollerde Kyber kullanımı ve hibrit modellerin denenmesi.
-
-- **Kullanıcı Dostu Deneyim**  
-  Grafiksel arayüz ve modüler yapı ile kolay kullanım.
-
-- **Araştırma ve Eğitim Desteği**  
-  Açık kaynak ve dokümantasyon ile akademik çalışmalara destek.
+- **Post-Kuantum Güvenlik Bilinci:** Kuantum bilgisayarların klasik şifrelemeye karşı oluşturduğu tehdide dikkat çekmek.
+- **Performans Karşılaştırması:** Kyber ve klasik algoritmaların hız, bellek ve güvenlik açısından analizini yapmak.
+- **Protokol Entegrasyonu:** TLS, VPN gibi protokollerde Kyber desteğini test ederek hibrit modeller geliştirmek.
+- **Kullanıcı Dostu Deneyim:** Modüler yapı ve görselleştirme panelleriyle kolay kullanım.
+- **Eğitim ve Araştırma Desteği:** Açık kaynak kod ve dokümantasyon ile akademik kullanımı teşvik etmek.
 
 ---
 
-## Özellikler
+## 🚀 Temel Özellikler
 
-### Kyber Algoritma Implementasyonu
+### 🔐 Kyber Algoritma Implementasyonu
 
-- Kyber-512, Kyber-768, Kyber-1024 seviyeleri
-- Lattice tabanlı kriptografi ile kuantum direnç
-- NIST standartlarıyla uyumlu yapı
+- Kyber-512, Kyber-768, Kyber-1024 destekli tam anahtar üretimi ve kapsülleme sistemleri.
+- Lattice tabanlı kriptografi ile kuantum saldırılarına dayanıklılık.
+- NIST PQC standartlarına tam uyumluluk.
 
-### Karşılaştırmalı Performans Analizi
+### ⚖️ Performans Karşılaştırma ve Benchmarking
 
-- RSA ve ECC ile karşılaştırmalı benchmark araçları
-- Anahtar üretimi, şifreleme/deşifreleme hızı, bellek kullanımı
-- Grafana tarzı kullanıcı dostu görselleştirme
+- RSA-2048, RSA-4096, ECC gibi klasik algoritmalarla karşılaştırmalı analiz.
+- Anahtar üretim süresi, şifreleme/deşifreleme hızı ve bellek kullanımı ölçümü.
+- Grafana benzeri görsellerle performans metrik sunumu.
 
-### Gerçek Zamanlı Performans İzleme
+### 📊 Gerçek Zamanlı Performans İzleme
 
-- Gerçek zamanlı algoritma takip sistemi
-- Hata oranları, başarısız kapsül açma logları
-- Anormallik tespiti ve uyarı sistemleri
+- Gerçek zamanlı algoritma davranışı takibi.
+- Hata oranları, başarısız kapsül açma girişimlerinin loglanması.
+- Anomali tespiti ve uyarı sistemleri.
 
-### TLS/SSL Protokol Entegrasyonu
+### 🔐 TLS/SSL Entegrasyonu
 
-- Kyber ile TLS/SSL desteği
-- Hibrit şifreleme modeli (Kyber + RSA)
-- Gerçek dünya senaryolarında test
+- Kyber tabanlı TLS/SSL oturumları oluşturma ve test etme.
+- Hibrit şifreleme modelleri (Kyber+RSA) desteği.
+- Gerçek dünya bağlantı senaryolarında performans ölçümü.
 
-### MAC Adresi Tabanlı Kimlik Doğrulama
+### 🛡️ MAC Adresi Tabanlı Kimlik Doğrulama
 
-- MAC adresi ile ek kimlik doğrulama
-- OUI analizi ile cihaz türü ve üretici tanımlama
-- Yerel ağlarda güvenli anahtar paylaşımı
+- Cihazların MAC adresleri ile ek kimlik doğrulama katmanı.
+- İlk 6 hane (OUI) analiziyle üretici ve hizmet sınıfı tespiti.
+- Yerel ağlarda güvenli anahtar paylaşımı için kullanışlılık.
 
-### Kuantum-Dirençli Hibrit Şifreleme
+### ⚗️ Kuantum-Dirençli Hibrit Şifreleme
 
-- Klasik algoritmalarla hibrit yapı
-- RSA ile anahtar değişimi, Kyber ile veri şifreleme
+- Kyber ve klasik algoritmaların kombinasyonu ile hibrit sistemler.
+- Örneğin: RSA ile anahtar değişimi, Kyber ile veri şifreleme.
 
-### Görselleştirme ve Raporlama
+### 📈 Görselleştirme ve Raporlama
 
-- Grafana tarzı paneller
-- PDF/CSV formatında detaylı raporlar
-- Güvenlik seviyesi derecelendirmesi
+- Hız, bellek, hata oranı gibi metriklerin panellerle sunulması.
+- PDF ve CSV formatlarında ayrıntılı rapor üretimi.
+- Güvenlik derecelendirmesi (Low, Medium, High, Critical).
 
-### Kuantum Saldırı Simülasyonu
+### 🧪 Kuantum Saldırı Simülasyonları
 
-- Grover, Shor gibi kuantum saldırılara karşı direnç testi
-- LWE tabanlı saldırı analizleri
+- Shor, Grover gibi kuantum algoritmalarına karşı simülasyonlar.
+- LWE (Learning With Errors) tabanlı saldırı analizleri.
 
-### Modüler ve Açık Kaynak Yapı
+### 🧩 Modüler ve Açık Kaynak Yapı
 
-- Python tabanlı modüler kod
-- MIT lisansı, açık kaynak geliştirme
-- API ve kapsamlı dokümantasyon
+- Python tabanlı modüler mimari.
+- Kolay özelleştirme, entegrasyon ve katkı için MIT lisansı.
+- Geliştiricilere yönelik kapsamlı API ve dökümantasyon.
 
-### Eğitimsel Araçlar
+### 🎓 Eğitimsel Materyaller
 
-- Interaktif Kyber algoritma rehberleri
-- Lattice kriptografisi ve kuantum tehdit eğitim materyalleri
-- Üniversite ve bireysel kullanıcılara özel dokümanlar
-
----
-
-## Teknik Detaylar
-
-- **Bağımlılıklar**: Python 3.8+, numpy, pycryptodome, matplotlib  
-- **Performans Optimizasyonu**: Vektörleştirme ve paralel işlem desteği  
-- **Güvenlik Uyarısı**: Üretim ortamına uygun değildir; sabit zamanlı işlemler eksik olabilir.
+- Kyber algoritmasının temelini açıklayan interaktif rehberler.
+- Lattice kriptografisi, modüler aritmetik ve kuantum tehditlerine dair içerikler.
+- Üniversiteler ve meraklılar için rehber belgeler.
 
 ---
 
-## Kullanım Senaryoları
+## 🧠 Teknik Detaylar
 
-- **Güvenlik Araştırması**: Kuantum-dirençli algoritma testleri
-- **Akademik Çalışmalar**: Eğitim ve araştırmalarda kullanım
-- **Protokol Geliştirme**: TLS, VPN gibi sistemlerde Kyber entegrasyonu
-- **Kurumsal Güvenlik Planlaması**: Kuantum sonrası güvenlik dönüşümüne hazırlık
+- **Gereksinimler:**
+  - Python 3.8+
+  - `numpy` (matematik ve matris işlemleri)
+  - `pycryptodome` (kriptografik işlemler)
+  - `matplotlib` (grafik çizimleri)
+
+- **Performans Optimizasyonu:**
+  - Vektörleştirme ve paralel işlem desteğiyle matris tabanlı hızlandırma.
+
+- **Güvenlik Notu:**
+  - Eğitim ve araştırma amaçlıdır. Sabit zamanlı işlemler eksik olabilir; üretim ortamında dikkatli kullanım önerilir.
+
+---
+
+## 💡 Kullanım Senaryoları
+
+- 🔐 **Güvenlik Araştırmaları:** Post-kuantum algoritmalar üzerine pratik testler.
+- 🎓 **Akademik Çalışmalar:** Üniversite dersleri ve seminerlerde kullanım.
+- 🧪 **Protokol Geliştirme:** TLS, VPN gibi sistemlerde Kyber prototipleme.
+- 🏢 **Kurumsal Planlama:** Kuantum sonrası geçiş senaryolarının test edilmesi.
+
+---
+
+## 📝 Lisans
+
+Bu proje **MIT Lisansı** altında açık kaynak olarak sunulmaktadır. Herkesin katkısına açıktır.
+
+---
+
+## 📚 Katkıda Bulunun
+
+Pull request'ler, sorun bildirimleri ve öneriler memnuniyetle karşılanır. Daha fazla bilgi için `CONTRIBUTING.md` dosyasını inceleyin.
+
+---
+
+## 🌐 Bağlantılar
+
+- [Kyber Resmi Dokümantasyon](https://pq-crystals.org/kyber/)
+- [NIST PQC Standartlaştırma Süreci](https://csrc.nist.gov/projects/post-quantum-cryptography)
+- [GitHub Repository (örnek)](https://github.com/kullanici/kybercrypto-toolkit)
+
