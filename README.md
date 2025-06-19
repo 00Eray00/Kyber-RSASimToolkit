@@ -90,7 +90,7 @@ Tam yol haritası için: [`ROADMAP.md`](./ROADMAP.md)
 
 1. **Clone the Repository / *Depoyu Klonlayın***:  
    ```bash
-   git clone https://github.com/ibrahimyigitcetin/Kyber-RSASimToolkit.git
+   git clone https://github.com/00Eray00/Kyber-RSASimToolkit.git
    cd Kyber-RSASimToolkit
    ```
 
@@ -254,7 +254,7 @@ Bu Python dosyası şu işlemleri gerçekleştirir:
 
 Topluluk katkılarını memnuniyetle karşılıyoruz! Katkıda bulunmak için:  
 1. Fork the repository.  
-2. Clone your fork (`git clone git@github.com:ibrahimyigitcetin/Kyber-RSASimToolkit.git`).  
+2. Clone your fork (`git clone git@github.com:00Eray00/Kyber-RSASimToolkit.git`).  
 3. Create a branch (`git checkout -b feature/your-feature`).  
 4. Commit changes with clear messages.  
 5. Push to your fork (`git push origin feature/your-feature`).  
