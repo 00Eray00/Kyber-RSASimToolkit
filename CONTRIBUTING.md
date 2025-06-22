@@ -20,7 +20,7 @@ Projeye katkıda bulunmak için geliştirme ortamını yerel makinenizde kurman�
 ### 1. Depoyu Klonlayın
 
 ```bash
-git clone https://github.com/ibrahimyigitcetin/Kyber-RSASimToolkit.git
+git clone https://github.com/00Eray00/Kyber-RSASimToolkit.git
 cd Kyber-RSASimToolkit
 ```
 
